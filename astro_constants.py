@@ -1,6 +1,6 @@
 earth_radius = 6378.14 #km
 earth_mass = 5.974*10**24 #kg
-earth_year = 365,24219 #day
+earth_year = 365.24219 #day
 
 sun_radius = 697000 #km
 sun_mass = 1.989*10**30 #kg
