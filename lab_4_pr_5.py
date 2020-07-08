@@ -3,8 +3,7 @@ print('меню:')
 print('4 стороны - прямоугольник')
 print('3 стороны - треугольник,')
 print('0 сторон - круг,')
-def area():
-    A = int(input('кол-во сторон:'))
+def area(A = int(input('кол-во сторон:'))):
     if A == 4:
         b = int(input('сторона 1: '))
         c = int(input('сторона 2: '))
@@ -17,9 +16,9 @@ def area():
         r = int(input('радиус круга: '))
         s = np.pi * (r**2)
     else:
-       s = print('тебе сказано было 0, 3 или 4 ')
+       s = print('только 0, 3 или 4 ')
+    print('square = ', s)
     return(s)
 
 
-m = area()
-print('square = ', m)
+area()
