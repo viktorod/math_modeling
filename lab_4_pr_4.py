@@ -1,14 +1,11 @@
 import numpy as np
-def func(a, b, N):
-    
-    x = []
+
+def func(a = int(input('что-то 1:' )),
+         b = int(input('что-то 2:' )),
+         N = int(input('что-то 3:' ))):
     x = np.linspace(a, b, N)
-    
-    return (x**2)
+    y = x ** 2
+    print(y)
+    return y
 
-a = int(input('что-то 1:' ))
-b = int(input('что-то 2:' ))
-N = int(input('что-то 3:' ))
-
-y = func(a, b, N)
-print(y)
+func()
