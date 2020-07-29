@@ -25,7 +25,7 @@ def cycloid_and_astroid(R=2):
     plt.plot(x,y)
     plt.xlabel('coord x')
     plt.ylabel('coord y')
-    plt.grid
+    plt.grid()
     plt.title('astroid')
 
 cycloid_and_astroid()
