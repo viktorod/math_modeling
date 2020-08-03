@@ -27,7 +27,7 @@ plt.xlabel('Coord - x')
 plt.ylabel('Coord - y')
 plt.grid()
 
-ani.save('pr_2_1_of_2.gif')
+ani.save('lb_6_pr_2_1_of_2.gif')
 
 fig, ax = plt.subplots()
 
@@ -53,5 +53,5 @@ plt.xlabel('Coord - x')
 plt.ylabel('Coord - y')
 plt.grid()
 
-ani.save('pr_2_2_of_2.gif')
+ani.save('lb_6_pr_2_2_of_2.gif')
     
