@@ -33,7 +33,7 @@ plt.xlabel('Coord - x')
 plt.ylabel('Coord - y')
 plt.title('Бабочка')
 
-ani.save('pr_4_1_of_2.gif')
+ani.save('lb_6_pr_4_1_of_2.gif')
 
 fig, ax = plt.subplots() 
 
@@ -65,4 +65,4 @@ plt.xlabel('Coord - x')
 plt.ylabel('Coord - y')
 plt.title('Сердце')
 
-ani.save('pr_4_2_of_2.gif')
+ani.save('lb_6_pr_4_2_of_2.gif')
