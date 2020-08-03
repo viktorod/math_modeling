@@ -57,4 +57,4 @@ def astroid(a, R):
         print('функцию я приму, но график я не дам')
 
 
-astroid(2, 0)
+astroid(2, 5)
