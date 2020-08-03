@@ -26,7 +26,7 @@ def animate(i):
 
 ani = anim.FuncAnimation(fig,
                          animate,
-                         frames = np.linspace(0, 12 * np.pi, 100),
+                         frames = np.linspace(0, 12 * np.pi, 300),
                          interval = 10)
 
 plt.xlabel('Coord - x')
@@ -57,7 +57,7 @@ def animate_part_II(i):
     
 ani = anim.FuncAnimation(fig,
                          animate_part_II,
-                         frames = np.linspace(0, 2 * np.pi, 100), 
+                         frames = np.linspace(0, 2 * np.pi, 300), 
                          interval = 10)
 
 
