@@ -45,4 +45,4 @@ plt.ylabel('Coord - y')
 plt.title('две синусоиды')
 plt.grid()
 
-ani.save('pr_3.gif')
+ani.save('lb_6_pr_3.gif')
