@@ -30,7 +30,7 @@ def fractal_move(n = 50, C = 0.3, D = 0.33):
 ax.set_xlim(-0.2, 0.5)                                                                                   
 ax.set_ylim(0, 0.7)
 
-anim= anim.FuncAnimation(fig, fractal_move, frames = 300, interval = 0.1)
+ani = anim.FuncAnimation(fig, fractal_move, frames = 300, interval = 0.1)
 
 plt.legend()
 plt.title('Фрактальное множество')
@@ -38,4 +38,4 @@ plt.xlabel('Coord - x')
 plt.ylabel('Coord - y')
 plt.axis('equal')
 
-anim.save('lab_6_pr_5.gif')
+ani.save('lab_6_pr_5.gif')
