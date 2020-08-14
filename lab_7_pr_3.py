@@ -38,7 +38,7 @@ ani = anim.FuncAnimation(fig,
                          animate,
                          frames = 100,
                          interval = 10)
-plt.axis('equal')
+
 plt.legend()
 plt.xlabel('Coord - x')
 plt.ylabel('Coord - y')
